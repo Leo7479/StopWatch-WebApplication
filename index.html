@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" type="text/css" href="./stylings/styles.css">
+    <link rel="shortcut icon" type="images/x-icon" href="./favicon/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="clock">
+            <div class="holder">
+                <div class="overlay"></div>
+                <div class="time">
+                    <span id="hourTime">00</span>:
+                    <span id="minuteTime">00</span>:
+                    <span id="secondTime">00</span>:
+                    <span id="milliTime">00</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="startClock">Start</button>
+                <button id="stopClock">Stop</button>
+                <button id="resetClock">Reset</button>
+            </div>
+        </div>
+        <div class="lapDetails">
+            <h1>Lap Details</h1>
+            <button id="lapClock">Lap</button>
+            <p>
+                1. <span class="timerLap" id="lap01"></span><br>
+                2. <span class="timerLap" id="lap02"></span><br>
+                3. <span class="timerLap" id="lap03"></span><br>
+                4. <span class="timerLap" id="lap04"></span><br>
+                5. <span class="timerLap" id="lap05"></span>
+            </p>
+        </div>
+    </div>
+    <script src="./scripts/script.js" defer></script>
+</body>
+
+</html>
